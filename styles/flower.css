@@ -184,12 +184,7 @@ nav ul li {
 }
 
 .image-column-normal {
-    width: 723px;
-    height: 430px;
-    background-image: url('../assets/deal-zabo.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 10px;
+    
     
 }
 
@@ -256,6 +251,12 @@ nav ul li {
 .zabo-plant {
     text-align: center;
     position: relative;
+    width: 723px;
+    height: 430px;
+    background-image: url('../assets/deal-zabo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
 }
 .zabo {
     position: absolute;

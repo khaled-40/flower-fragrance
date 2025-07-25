@@ -188,7 +188,33 @@ nav ul li {
     border-radius: none;
     width: fit-content;
 }
-
+/* footer section related styles  */
+.footer-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px;
+}
+.link-items {
+    list-style: none;
+    padding: 10px;
+}
+.links {
+    text-decoration: none;
+    font-family: 'Inter';
+    color: #6B7280;
+    font-size: 1rem;
+    
+}
+.footer-description {
+    font-size: 1.5rem;
+}
+.footer-icon {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-top: -130px;
+}
 /* responsive design for smaller devices  */
 @media screen and (max-width: 576px) {
     body section,footer,header {
@@ -240,5 +266,13 @@ nav ul li {
     }
     .join-the-community {
         padding-left: 10px;
+    }
+    .footer-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .footer-icon {
+        margin: 10px;
     }
 }

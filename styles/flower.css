@@ -413,4 +413,7 @@ nav ul li {
     .footer-icon {
         margin: 10px;
     }
+    .latest-deal-images {
+        flex-direction: column;
+    }
 }
